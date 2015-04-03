@@ -1,7 +1,0 @@
-Exception: STATUS_ACCESS_VIOLATION at eip=6113B374
-eax=800482F1 ebx=00000000 ecx=00000009 edx=0000007E esi=6118293F edi=00000009
-ebp=61186C70 esp=00289690 program=C:\cygwin\home\USER\iotest.exe, pid 9776, thread main
-cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
-Stack trace:
-Frame     Function  Args
-End of stack trace
