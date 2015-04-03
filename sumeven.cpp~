@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout<< "================================"//
+<< endl;
+cout<< "The   the sum of the first " << N << " even integers on the real number line is ";
+cout<< sumeven(N) <<endl;
+
+return Nl
+}
+
+int sumeven(int N)
+{
+int sum = 0;
+int counter = 2;
+while(counter<2*N+1)
+{
+sum=sum+counter;
+counter = counter+2;
+}
+return sum;
+}
