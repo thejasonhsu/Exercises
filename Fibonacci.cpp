@@ -16,7 +16,7 @@ double Fibonacci(int n)
            break;           // Go to end of switch
 
          case(1):
-           value = 1 ;    // F1 = 1 
+           value = 1;    // F1 = 1 
            break;           // Go to end of switch
 
 
@@ -26,4 +26,5 @@ double Fibonacci(int n)
 
      return value;
 }
+
 
