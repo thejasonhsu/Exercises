@@ -1,6 +1,5 @@
-// Homework 2 Assignment - Football
+// Football
 // Jason Hsu
-// 2580964804
 
 #include <iostream>
 #include <sstream>

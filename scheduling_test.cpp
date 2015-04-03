@@ -1,6 +1,5 @@
-// Homework 3 Assignment - Course Schedule
+// Course Schedule
 // Jason Hsu
-// 2580964804
 
 #include <iostream>
 #include <sstream>

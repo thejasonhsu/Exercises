@@ -1,6 +1,5 @@
-// Homework 1 Assignment - Card Game of War
+// Card Game of War
 // Jason Hsu
-// 2580964804
 
 #include <iostream>
 #include <string>
