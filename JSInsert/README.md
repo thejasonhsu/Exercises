@@ -1,0 +1,1 @@
+JavaScript function that inserts a paragraph into a html body.
