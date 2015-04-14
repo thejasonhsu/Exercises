@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<p><input size='40' type='file' onchange='openSource(event)' /></p>
+<p id="output"></p>
+
+<script>
+// Embedded Javascript in HTML file.
+var openSource = function(event) 
+{
+	// Read the file input (using a FileReader).
+	var inputFile = event.target;
+	var reader = new FileReader();
+
+	// When loading ends, call this function.
+	reader.onloadend = function(e) 
+	{
+		// Get the information from the file.
+		var contents = e.target.result;
+
+		// Remove all uppercase and special characters.
+		// Split this according to spaces.
+		var words = contents.toLowerCase().replace(/[,.;:]/g,'').split(' ');
+
+		// Used for writing out the distinctWords.
+		var distinctWords = Array();
+		var htmlCode = '';
+
+		// Go through all words.
+		for(var i in words)
+		{
+			// If the word is already found, do nothing, otherwise push onto array.
+			if(distinctWords.indexOf(words[i]) == -1) {
+				distinctWords.push(words[i]);
+			}
+		}
+
+		// Sort array by word.
+		distinctWords.sort();
+
+		// Print out in HTML form the distinct words.
+		htmlCode += '<b>Distinct Words: </b><br>'; 
+		for(var i in distinctWords)
+		{
+			htmlCode += '&emsp;' + distinctWords[i] + '<br>';
+		}
+
+		// Print that HTML to the screen.
+		document.getElementById("output").innerHTML = htmlCode;
+	};
+
+	// Read information from the file.
+	reader.readAsText(inputFile.files[0]);
+};
+</script>
+
+</head>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<p><input size="40" type="file" onchange="addPara(event)" /></p>
+<p id="output"></p>
+
+<script>
+var addPara = function(event) 
+{
+	// Read information from the file using a reader.
+	var inputFile = event.target;
+	var reader = new FileReader();
+
+	// Set the name of the file for this function to use.
+	reader.file = inputFile.files[0];
+
+	// When this function finishes loading, do this.
+	reader.onloadend = function(e) 
+	{
+		// Get the HTML information.
+		var htmlInfo = e.target.result;
+		
+		// Find the BODY tag and move the pointer 6 up.
+		var bodyIndex = htmlInfo.indexOf('<body>');
+		
+		if(bodyIndex > -1) {
+			// Insert <p></p> into this block.
+			bodyIndex = bodyIndex + 6;
+			htmlInfo = htmlInfo.slice(0,bodyIndex) + '<p></p>' + htmlInfo.slice(bodyIndex + 1);
+
+			// Exchange the <> signs so that they print them out to HTML.
+			// Don't let them actually view as HTML code.
+			htmlInfo = htmlInfo.replace(/</g, "&lt;").replace(/>/g, "&gt;<br>");
+		}
+
+		// Print out to the screen the HTML file.
+		document.getElementById("output").innerHTML = htmlInfo;
+	};
+
+	// Read the file input.
+	reader.readAsText(inputFile.files[0]);
+};
+</script>
+</head>
+<body>
+</body>
+</html>
