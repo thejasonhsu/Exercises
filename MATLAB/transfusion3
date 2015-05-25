@@ -1,0 +1,13 @@
+transfusion3(0.475,0.31)
+
+ans =
+
+    0.4102
+
+transfusion3(0.2,0.31)
+
+ans =
+
+    0.2180
+
+diary off

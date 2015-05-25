@@ -1,0 +1,76 @@
+Excercise_125
+
+C =
+
+     6    12    18    24    30
+
+
+A1 =
+
+   55.5500   57.0100   57.9500
+
+
+A2 =
+
+  110.6600  114.7600  113.0500
+
+
+A3 =
+
+  168.9000  169.4400  176.5500
+
+
+A4 =
+
+  233.6600  233.8900  230.6700
+
+
+A5 =
+
+  300.4500  304.5600  301.1100
+
+
+A_av =
+
+   56.8367  112.8233  171.6300  232.7400  302.0400
+
+mean peak area when C=6
+   56.8367
+
+standard deviation when C=6
+    1.2094
+
+mean peak area when C=12
+  112.8233
+
+standard deviation when C=12
+    2.0594
+
+mean peak area when C=18
+  171.6300
+
+standard deviation when C=18
+    4.2694
+
+mean peak area when C=24
+  232.7400
+
+standard deviation when C=24
+    1.7964
+
+mean peak area when C=30
+  302.0400
+
+standard deviation when C=30
+    2.2072
+
+slope, intersect of linear model
+   10.1721   -7.8830
+
+equation for peak area as a function of sucrose concentration
+A(C) = 10.1721*C -7.8830
+sucrose concentration when peak area is 209.86
+or
+   21.4059
+
+diary off

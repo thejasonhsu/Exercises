@@ -1,0 +1,110 @@
+Excercise_117
+volumetric flow of ascending aorta in cm^3/sec
+  197.9203
+
+to
+  506.6761
+
+mass flow rate of ascending aorta in g/s
+  209.0039
+
+to
+  535.0499
+
+Reynolds number for ascending aorta
+    3.3264
+
+to
+    5.3222
+
+volumetric flow of descending aorta in cm^3/sec
+   54.2867
+
+to
+   84.8230
+
+mass flow rate of descending aorta in g/s
+   57.3268
+
+to
+   89.5731
+
+Reynolds number for descending aorta
+    1.1405
+
+to
+    1.4256
+
+volumetric flow of large artery in cm^3/sec
+    0.6283
+
+to
+   14.1372
+
+mass flow rate of large artery in g/s
+    0.6635
+
+to
+   14.9288
+
+Reynolds number for large artery
+    0.1056
+
+to
+    0.7920
+
+volumetric flow of capillary in cm^3/sec
+  9.8175e-009
+
+to
+  7.8540e-008
+
+mass flow rate of capillary in g/s
+  1.0367e-008
+
+to
+  8.2938e-008
+
+Reynolds number for capillary
+  6.6000e-007
+
+to
+  2.6400e-006
+
+volumetric flow of large vein in cm^3/sec
+    2.9452
+
+to
+   15.7080
+
+mass flow rate of large vein in g/s
+    3.1102
+
+to
+   16.5876
+
+Reynolds number for large vein
+    0.1980
+
+to
+    0.5280
+
+volumetric flow of venae cavae in cm^3/sec
+   34.5575
+
+to
+   50.2655
+
+mass flow rate of venae cavae in g/s
+   36.4927
+
+to
+   53.0803
+
+Reynolds number for venae cavae
+    0.5808
+
+to
+    0.8448
+
+diary off

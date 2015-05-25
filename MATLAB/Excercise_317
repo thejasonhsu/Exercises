@@ -1,0 +1,96 @@
+Excercise_317
+Part A
+mass flow rate of t1 a1 in lbm/hr
+  2.5000e+003
+
+mass flow rate of t1 a2 in lbm/hr
+  2.5000e+003
+
+mass flow rate of t1 a3 in lbm/hr
+  2.5000e+003
+
+mass flow rate of t1 a4 in lbm/hr
+  2.5000e+003
+
+mass flow rate of t2 a1 in lbm/hr
+  4.1667e+003
+
+mass flow rate of t2 a2 in lbm/hr
+  3.3333e+003
+
+mass flow rate of t2 a3 in lbm/hr
+  1.6667e+003
+
+mass flow rate of t2 a4 in lbm/hr
+  833.3333
+
+mass flow rate of t3 a1 in lbm/hr
+        5000
+
+mass flow rate of t3 a2 in lbm/hr
+  3.3333e+003
+
+mass flow rate of t3 a3 in lbm/hr
+  1.6667e+003
+
+mass flow rate of t3 a4 in lbm/hr
+  1.6191e-013
+
+Part B
+Mass flow of Alloy Feed 1 if Target Alloy 1 has a rate of 1 lbm/hr
+ 
+S =
+ 
+3/4
+ 
+Mass flow of Alloy Feed 2 if Target Alloy 1 has a rate of 1 lbm/hr
+ 
+ =
+ 
+1/4
+ 
+M1 = [0.50 0.30 0.15 0.05]
+A5 = [F 0 0.5*F K]
+M2 = [0.40 G G K]
+0.50+F*Y=0.40*(1+Y)
+0.30=G*(1+Y)
+0.15+0.5*F*Y=G*(1+Y)
+0.05+K*Y=K*(1+Y)
+0.15=0.5*F*Y
+F*Y=0.3
+(0.50+0.3)/0.40=1+Y
+1=Y
+Mass flow of M1 over total = 1/2
+Mass flow of A5 over total = 1/2
+ 
+Mass flow of F in Alloy Feed 5 when M1 has a rate of 1 lbm/hr
+3/10
+ 
+Mass flow of H in Alloy Feed 5 when M1 has a rate of 1 lbm/hr
+3/20
+ 
+Mass flow of K in Alloy Feed 5 when M1 has a rate of 1 lbm/hr
+11/20
+ 
+Mass flow of G in M2 when M1 has a rate of 1 lbm/hr
+3/20
+ 
+Mass flow of H in M2 when M1 has a rate of 1 lbm/hr
+3/20
+ 
+Mass flow of K in M2 when M1 has a rate of 1 lbm/hr
+3/10
+ 
+Mass flow of F in M2 when M1 has a rate of 10000 lbm/hr
+        4000
+
+Mass flow of G in M2 when M1 has a rate of 10000 lbm/hr
+1500
+ 
+Mass flow of H in M2 when M1 has a rate of 10000 lbm/hr
+1500
+ 
+Mass flow of K in M2 when M1 has a rate of 10000 lbm/hr
+3000
+ 
+diary off

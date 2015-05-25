@@ -1,0 +1,26 @@
+Excercise_116
+volumetric flow rate of trachea in mL/sec
+  345.5752
+
+volumetric flow rate of bronchi in mL/sec
+    6.9979
+
+mass flow rate of trachea in g/sec
+    0.4458
+
+mass flow rate of bronchi in g/sec
+    0.0090
+
+molar flow rate of trachea in mol/sec
+    0.0155
+
+molar flow rate of bronchi in mol/sec
+    0.0126
+
+Reynolds number for trachea
+  1.5424e+003
+
+Reynolds number for bronchi
+   69.4076
+
+diary off
